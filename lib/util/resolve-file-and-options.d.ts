@@ -13,7 +13,7 @@ export function resolveFileAndOptions(vfileCompatible: Readonly<Compatible>, opt
     file: VFile;
     options: ProcessorOptions;
 };
-export type Compatible = import('./vfile').Compatible;
+export type Compatible = import('../vfile').Compatible;
 export type CompileOptions = import('../compile.js').CompileOptions;
 export type ProcessorOptions = import('../core.js').ProcessorOptions;
 import { VFile } from './vfile';

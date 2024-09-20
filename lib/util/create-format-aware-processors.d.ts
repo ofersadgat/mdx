@@ -11,7 +11,7 @@ export type Program = import('estree-jsx').Program;
 export type Root = import('mdast').Root;
 export type Processor = import('unified').Processor<Root, Program, Program, Program, string>;
 export type Compatible = import('vfile').Compatible;
-export type VFile = import('./vfile').VFile;
+export type VFile = import('../vfile').VFile;
 export type CompileOptions = import('../compile.js').CompileOptions;
 /**
  * Result.

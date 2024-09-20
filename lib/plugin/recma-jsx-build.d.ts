@@ -10,7 +10,7 @@
 export function recmaJsxBuild(options?: Readonly<Options> | null | undefined): (tree: Program, file: VFile) => undefined;
 export type Program = import('estree-jsx').Program;
 export type BuildJsxOptions = import('estree-util-build-jsx').Options;
-export type VFile = import('./vfile').VFile;
+export type VFile = import('../vfile').VFile;
 /**
  * Configuration for internal plugin `recma-jsx-build`.
  */

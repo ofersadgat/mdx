@@ -25,7 +25,7 @@ export type SpreadElement = import('estree-jsx').SpreadElement;
 export type Statement = import('estree-jsx').Statement;
 export type VariableDeclarator = import('estree-jsx').VariableDeclarator;
 export type PeriscopicScope = import('periscopic').Scope;
-export type VFile = import('./vfile').VFile;
+export type VFile = import('../vfile').VFile;
 export type ProcessorOptions = import('../core.js').ProcessorOptions;
 /**
  * Scope (with a `node`).

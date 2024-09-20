@@ -31,6 +31,6 @@ export type SimpleLiteral = import('estree-jsx').SimpleLiteral;
 export type SpreadElement = import('estree-jsx').SpreadElement;
 export type Statement = import('estree-jsx').Statement;
 export type VariableDeclarator = import('estree-jsx').VariableDeclarator;
-export type VFile = import('./vfile').VFile;
+export type VFile = import('../vfile').VFile;
 export type ProcessorOptions = import('../core.js').ProcessorOptions;
 //# sourceMappingURL=recma-document.d.ts.map
